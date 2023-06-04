@@ -1,0 +1,127 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.f{
+display:flex;
+flex-direction:column;
+/* flex-wrap: wrap; */
+margin-top:100px;
+margin-bottom:200px;
+margin-left:200px;
+margin-right:200px;
+border: 1px solid;
+border-radius: 20px;
+padding: 20px;
+width: 520px;
+background: rgba(255, 255, 255, 0.7);
+
+
+
+}
+label{
+   font-size: 30px;
+   margin-top: 10px;
+   /* font-weight: bold; */
+  
+}
+input{
+   
+padding: 10px;
+width: 400px;
+border: 1px solid;
+border-radius: 10px;
+    
+}
+textarea{
+    width: 420px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.field{
+
+    display:flex;
+    flex-wrap: wrap;
+    /* flex-direction:column; */
+    
+}
+.checkbox-input{
+
+border: 5px solid;
+width:10px;
+height:10px;
+}
+.checkboxes{
+    display: flex;
+    border: 1px solid;
+    overflow-x: auto;
+                overflow-y: hidden;
+                height: 100px;
+                border-radius:10px;
+                width: 420px;
+                margin-top:10px;
+                position: relative;
+                right: 0px;
+
+}
+.checkbox{
+    border: 1px solid;
+    background-color: #e7ac5a;
+    padding: 10px;
+    margin: 15px;
+    width:125px;
+    display:flex;
+    /* width: 10px; */
+    border-radius:10px;
+
+}
+
+
+  p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+  }
+  body{
+    /* background-image: linear-gradient(to right bottom,rgba(249, 158, 201, 0.6),rgba(27, 229, 219, 0.5)); */
+    background-image: linear-gradient(to  bottom,rgba(27, 25, 26, 0.955), rgba(21, 20, 20, 0.496)),url("s6.jpg");
+    background-size: cover;
+
+
+    
+  }
+  .btn {
+    background-color: #f8408d;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 250px;
+opacity: 0.9;
+position: relative;
+left: 100px;
+top:10px;
+border-radius: 20px;
+  }
+  .btn:hover {
+    opacity: 1;
+  }  
+
+  .lo{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    font-family: "Apple Chancery",cursive;
+
+  }
+  .lo h1{
+    padding: 10px;
+  }
+  .logo{
+    height: 60px;
+    margin: 10px;
+
+  }

@@ -1,0 +1,179 @@
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+   background-image: linear-gradient(#FEC8DE,#C4E2FF);
+    height:1200px;
+    
+}
+.image{
+padding:20px;
+width: 550px;
+/* border-radius: 20px; */
+height:700px;
+}
+.p1{
+    
+}
+.pro{
+    display:flex;
+   flex-direction: row;
+    border-radius: 20px;
+    background-color:seashell;
+    margin-top:150px;
+    margin-left :100px;
+    margin-right: 100px;
+    height:800px;
+    /* margin-bottom: 100px; */
+    box-shadow: 12px 12px 12px 1px rgba(33, 23, 3, 0.958);
+  
+  
+
+}
+.pro1{
+   
+padding-bottom: 100px;
+
+}
+.pro2{
+    display:flex;
+    flex-direction:column;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+    /* flex-flow: column wrap; */
+    /* padding-bottom: 100px; */
+    margin-bottom: 100px;
+    overflow-x: hidden;
+                overflow-y: auto;
+                box-shadow: 12px 12px 12px 1px rgba(133, 124, 128, 0.958);
+   padding-left: 10px;
+   padding-right: 10px;
+   position: relative;
+}
+.pro2 p1{
+
+    font-size:30px;
+    padding-left: 5px;
+   
+}
+
+.pro2 h1{
+    padding: 10px;
+    margin: 10px;
+    font-family: "Apple Chancery",cursive;
+    font-weight: 50px;
+    font-size: 50px;
+}
+.int{
+    display:flex;
+ 
+}
+.insta{
+    height: 50px;
+    margin:10px;
+}
+.fb{
+    height: 50px;
+    margin: 10px;
+}
+.twitter{
+    height: 50px;
+    margin: 10px;
+}
+.snap{
+    height: 50px;
+    margin: 10px;
+}
+.container h1{
+    font-family: "Apple Chancery",cursive;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 30px;
+}
+.about{
+    border: 1px solid;
+   
+    display:flex;
+    padding: 5px;
+    margin:5px;
+}
+.job{
+    display: flex;
+    border: 1px solid;
+    padding: 5px;
+    margin:5px;
+}
+.age{
+    display: flex;
+    border: 1px solid;
+    padding: 5px;
+    margin:5px;
+}
+.goal{
+    display: flex;
+    border: 1px solid;
+    padding: 5px;
+    margin:5px;
+}
+.fav{
+    display: flex;
+    border: 1px solid;
+    padding: 5px;
+    margin:5px;
+}
+.interest{
+    display: flex;
+    border: 1px solid;
+    padding: 5px;
+    margin:5px;
+}
+.shows{
+    display: flex;
+    border: 1px solid;
+    padding: 5px;
+    margin:5px;
+   
+}
+.social{
+    position: sticky;
+    bottom: 0;
+    background-color: #FFF4EE;
+    /* border-top: 2px solid;
+    padding-top: 5px; */
+}
+.logo{
+    border-radius: 105px;
+    height:50px;
+    margin: 10px;
+    position: absolute;
+
+}
+.logo1 h1{
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+.logo1{
+    text-decoration: none;
+    color:black;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.text{
+    background-color: #FEC8DE;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.text:hover{
+    background-color: aqua;
+    border: 1px solid;
+    border-radius: 5px;
+}

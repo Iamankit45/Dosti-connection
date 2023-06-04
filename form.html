@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+        <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+<div class="container">
+
+<div class="lo">
+  <a class="logo1"href="http://localhost/dosti/dosti.html"><img class="logo" src="./image/img/l10.png"></a>
+  <h1>Dosti-connection</h1>
+</div>
+
+
+<form action="form.php" method="post" enctype="multipart/form-data">
+<div class="f">
+   <p><label for="name" class="name">Full Name</label></p> 
+<input type="text" name="name" id="name" placeholder=" enter your name">
+
+<p><label for="photo" class="photo">Photo</label></p>
+<input type="file" name="photo" id="photo" value="uploads">
+<!-- <input type="submit" name="submit" value="Upload"> -->
+
+<p><label for="about" class="about">About</label></p>
+<textarea type="textarea" cols="60" rows="6" name="about" id="about" placeholder="Write something about yourself"></textarea>
+
+
+<p><label for="job" class="job">Job</label></p>
+<input type="text" name="job" id="job" placeholder="your field">
+
+<p><label for="goal" class="goal">Goal</label></p>
+<input type="text" name="goal" id="goal" placeholder="your current goal">
+
+<p><label for="shows" class="shows">Fav-shows</label></p>
+<input type="text" name="shows" id="shows" placeholder="Your Favorite shows">
+
+<p><label for="food" class="food">Fav-food</label></p>
+<input type="text" name="food" id="food" placeholder="Your Favorite food">
+
+
+
+<div class='field'>
+    <label class='label'><p>INTEREST</p></label>
+    <ul class='checkboxes'>
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-0' name='choice[]' type='checkbox' value='Movies'>
+        <label class='checkbox-label' for='choice-0'>Movies</label>
+      </li></div>
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-1' name='choice[]' type='checkbox' value='Sports'>
+        <label class='checkbox-label' for='choice-1'>Sports</label>
+      </li> </div>
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-2' name='choice[]' type='checkbox' value='Music'>
+        <label class='checkbox-label' for='choice-2'>Music</label>
+      </li></div>
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-3' name='choice[]' type='checkbox' value='Dance'>
+        <label class='checkbox-label' for='choice-3'>Dance</label>
+      </li></div>
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-4' name='choice[]' type='checkbox' value='Painting'>
+        <label class='checkbox-label' for='choice-4'>Painting</label>
+      </li></div>
+<div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-5' name='choice[]' type='checkbox' value='Travelling'>
+        <label class='checkbox-label' for='choice-5'>Travelling</label>
+      </li></div>
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-6' name='choice[]' type='checkbox' value='V-Games'>
+        <label class='checkbox-label' for='choice-6'>V-Games</label>
+      </li></div>
+
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-7' name='choice[]' type='checkbox' value='Blogging'>
+        <label class='checkbox-label' for='choice-7'>Blogging</label>
+      </li></div>
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-8' name='choice[]' type='checkbox' value='Coding'>
+        <label class='checkbox-label' for='choice-8'>coding</label>
+      </li></div>
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-9' name='choice[]' type='checkbox' value='AI'>
+        <label class='checkbox-label' for='choice-9'>AI</label>
+      </li></div>
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-10' name='choice[]' type='checkbox' value='Design'>
+        <label class='checkbox-label' for='choice-10'>Design</label>
+      </li></div>
+      <div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-11' name='choice[]' type='checkbox' value='Swimming'>
+        <label class='checkbox-label' for='choice-11'>swimming</label>
+      </li>
+    </div>
+    <div>
+    <li class='checkbox'>
+        <input class='checkbox-input' id='choice-12' name='choice[]' type='checkbox' value='Standup'>
+        <label class='checkbox-label' for='choice-12'>Standup</label>
+      </li></div><div>
+      <li class='checkbox'>
+        <input class='checkbox-input' id='choice-13' name='choice[]' type='checkbox' value='Teaching'>
+        <label class='checkbox-label' for='choice-13'>Teaching</label>
+      </li></div>
+      <div><li class='checkbox'>
+        <input class='checkbox-input' id='choice-14' name='choice[]' type='checkbox' value='Reading'>
+        <label class='checkbox-label' for='choice-14'>Reading</label>
+      </li></div>
+    </ul>
+  </div>
+
+  <button type="submit" class="btn"> i m done</button>
+</form>
+
+
+
+</div>
+</div>
+
+</body>
+</html>
